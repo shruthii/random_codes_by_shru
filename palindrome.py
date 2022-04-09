@@ -14,3 +14,19 @@ else:
     
     
     #####palindrome
+    
+    
+    
+arr1='malayalamo'
+i,j=0,len(arr1)-1
+
+while i!=j:
+    if arr1[i] == arr1[j]:
+        i+=1
+        j-=1
+        continue
+    else:
+        print("not a palindrome")
+        break
+else:
+    print("Its a palindrome")
